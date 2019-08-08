@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{0F0052F3-A095-4748-BE9F-B45EBD38A1AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{C395D205-76AD-477E-A6D2-3CD3435BC6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{C395D205-76AD-477E-A6D2-3CD3435BC6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{7619D66B-6212-4300-B847-83F7F4374412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{C395D205-76AD-477E-A6D2-3CD3435BC6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C395D205-76AD-477E-A6D2-3CD3435BC6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C395D205-76AD-477E-A6D2-3CD3435BC6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7619D66B-6212-4300-B847-83F7F4374412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7619D66B-6212-4300-B847-83F7F4374412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7619D66B-6212-4300-B847-83F7F4374412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7619D66B-6212-4300-B847-83F7F4374412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0F0052F3-A095-4748-BE9F-B45EBD38A1AE} = {991BD982-1288-46A4-8C13-02411AF58CEC}
 		{C395D205-76AD-477E-A6D2-3CD3435BC6CD} = {32257EC8-E1D5-4476-AB14-063A0BD8E803}
+		{7619D66B-6212-4300-B847-83F7F4374412} = {DC546FB2-961D-4489-A3AB-F7ABAA02C775}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B18BFC80-5369-47DC-A16F-8845BC591969}
